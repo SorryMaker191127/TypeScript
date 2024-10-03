@@ -19,6 +19,6 @@ const printFun = function (str: string): void {
 
 //当函数某个参数可传也可不传的时候，之中情况下给参数指定类型，要使用可选参数
 //注意：可选参数后面不能再出现必选参数！
-function addPlusFun(num1: number, num2: number, num3?: number): number {
+function addPlusFun(num1: number = 10, num2: number, num3?: number): number {
     return num3 ? num1 + num2 + num3 : num1 + num2;
 }
