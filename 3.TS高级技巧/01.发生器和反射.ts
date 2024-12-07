@@ -1,5 +1,3 @@
-import { log } from "console";
-
 //1.生成器 generater函数
 function* gen() {
     yield Promise.resolve("A"); //支持同步和异步
